@@ -1,0 +1,39 @@
+page {
+  background-color: #dedede;
+  padding: 20rpx;
+}
+.search_row {
+  height: 60rpx;
+  display: flex;
+}
+.search_row input {
+  flex: 1;
+  height: 100%;
+  background-color: #fff;
+  padding-left: 30rpx
+}
+.search_row button {
+  height: 100%;
+  font-size: 26rpx;
+  padding: 0;
+  margin: 0 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.search_row button:not([size='mini']) {
+  width: 110rpx;
+}
+.search_content {
+  margin-top: 30rpx
+}
+.search_content .search_item {
+  background-color: #fff;
+  font-size: 26rpx;
+  padding: 15rpx 10rpx;
+  border-bottom: 1rpx solid #ccc;
+  /* 内容在一行显示 多出内容用...表示 */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
